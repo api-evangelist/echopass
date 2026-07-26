@@ -1,7 +1,26 @@
 aid: echopass
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/echopass.png
 name: Echopass
-description: Echopass is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Echopass Corporation was a cloud-based (on-demand / hosted) contact center technology company,
+  headquartered in the San Francisco Bay Area (San Ramon / Pleasanton, California) and backed by
+  Canaan Partners among other venture investors. Its platform delivered multichannel, carrier-grade
+  contact center and customer-interaction capabilities as a hosted service to enterprises. Echopass
+  was acquired by Genesys in 2013 and folded into the Genesys customer-experience portfolio; it no
+  longer operates as an independent company and publishes no live developer, API, or documentation
+  surface. This profile is retained in the API Evangelist network for lineage and portfolio-graph
+  purposes rather than as an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/echopass/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,30 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: genesys
+x-acquired-year: 2013
+x-live-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Contact Center
+- Cloud Contact Center
+- Customer Experience
+- Customer Engagement
+- Telecommunications
+- Acquired
+- Genesys
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
