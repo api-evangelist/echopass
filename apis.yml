@@ -66,3 +66,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/genesys/
+  name: Genesys
+  x-relationship: acquired
+  x-evidence: "Echopass was acquired by Genesys in 2013 and folded into the Genesys customer-experience portfolio; it no longer operates as an independent company and publishes no live developer, API, or documentation surface."
